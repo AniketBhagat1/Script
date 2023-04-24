@@ -106,7 +106,7 @@ show_menu()
        clear
        echo "++++++++++++ MENU +++++++++++++"
        echo "1. memory usage"
-	   echo "2. cpu usage"
+       echo "2. cpu usage"
        echo "3. username"
        echo "4. hostname"
        echo "5. virtual memory statistic"
@@ -119,7 +119,7 @@ show_menu()
        echo "12. os name & version"
        echo "13. server uptime"
        echo "14. View Partition on a /dev/xvda Disk"
-	   echo "15. Enter q to quit"
+       echo "15. Enter q to quit"
        echo "+++++++++++++++++++++++++++++++"
 }
 
