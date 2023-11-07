@@ -134,18 +134,18 @@ take_input()
        case $choice in
                1) memoryUsage ;;
                2) cpuUsage ;;
-			   3) userName ;;
-			   4) hostName ;;
-			   5) virtualmemoryStatistics ;;
-			   6) pwd ;;
-			   7) diskUtilization ;;
-			   8) listblockDevices ;;
-			   9) listtcpPorts ;;
-			   10) listudpPorts ;;
-			   11) kernelVersion ;;
-			   12) osVersion ;;
-			   13) serverUptime ;;
-			   14) diskPartition ;;
+	       3) userName ;;
+	       4) hostName ;;
+	       5) virtualmemoryStatistics ;;
+	       6) pwd ;;
+               7) diskUtilization ;;
+	       8) listblockDevices ;;
+	       9) listtcpPorts ;;
+              10) listudpPorts ;;
+              11) kernelVersion ;;
+	      12) osVersion ;;
+	      13) serverUptime ;;
+	      14) diskPartition ;;
                q) exit 0;;
                *) echo "Enter Valid Option!!"
                        read -p "Press any key to Continue...."
